@@ -28,5 +28,5 @@ app.use(
 );
 
 app.listen(puerto, () => {
-  console.log("Server initiated");
+  console.log(`Server initiated on port ${puerto}`);
 });
